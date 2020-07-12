@@ -7,7 +7,7 @@ package com.aper.singleton;
  * 虽然可以通过synchronized解决，但是也带来了效率下降
  */
 public class singleton5 {
-    private static singleton5 INSTANCE;
+    private static volatile singleton5 INSTANCE;
 
     private singleton5() {
     }

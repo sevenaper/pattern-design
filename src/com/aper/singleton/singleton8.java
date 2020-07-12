@@ -1,7 +1,7 @@
 package com.aper.singleton;
 
 /**
- * 不仅可以解决线程同步，还可以防止反序列化
+ * 不仅可以解决线程同步，还可以防止反序列化(没有构造方法，防止产生多个单例)
  */
 public enum singleton8 {
     INSTANCE;

@@ -41,7 +41,7 @@ public class Main {
         BulletPool bulletPool = new BulletPool();
         for (int i = 0; i < 10; i++) {
             Bullet bullet = bulletPool.getBullet();
-            System.out.println(b);
+            System.out.println(bullet);
         }
     }
 }

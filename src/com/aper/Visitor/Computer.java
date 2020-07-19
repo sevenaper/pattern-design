@@ -1,7 +1,7 @@
 package com.aper.Visitor;
 
 /**
- * 适用于访问固定
+ * 适用于访问固定构成
  */
 abstract class ComputerPart {
     abstract void accept(Visitor v);
